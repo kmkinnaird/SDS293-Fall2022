@@ -81,7 +81,7 @@ help us build our course community.
 Please read the syllabus this week and complete these tasks to help shape our community. If you have questions about the syllabus, please ask them on our [class's first week's sli.do](https://app.sli.do/event/vUruyYfXruFLuuv8dpyAnM)
 :::
 
-This web version of the syllabus has a menu and search bar on the left, but the syllabus is also available as one [pdf document]().
+This web version of the syllabus has a menu and search bar on the left, but the syllabus is also available as one [pdf document](https://github.com/kmkinnaird/SDS293-Fall2022/raw/main/sds293-syllabus/_build/pdf/sds293-syllabus.pdf).
 
 ## Course Acknowledgements 
 
