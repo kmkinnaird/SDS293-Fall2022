@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome to SDS 293 &#8212; SDS 293 - Modelling for Machine Learning</title>
+    <title>SDS 293 - Modelling for Machine Learning</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,9 +50,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Course Logistics" href="logistics.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -84,74 +85,7 @@ const thebe_selector_output = ".output, .cell_output"
       <div class="row">
           
 <!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
-      
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="_static/SDS293.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">SDS 293 - Modelling for Machine Learning</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
-                    Welcome to SDS 293
-                </a>
-            </li>
-        </ul>
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="logistics.html">
-   Course Logistics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="assignments.html">
-   Course Structure
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="resources.html">
-   Resources Supporting SDS 293
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="honorcode.html">
-   Academic Integrity
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="grading.html">
-   Assessment
-  </a>
- </li>
-</ul>
-
-    </div>
-</nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-            </div>
-            
-        </div>
-    </div>
-    <div id="rtd-footer-container"></div>
+<div class="bd-sidebar noprint single-page" id="site-navigation">
 </div>
 
 
@@ -172,21 +106,6 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="col py-1 d-flex header-article-main">
     <div class="header-article__left">
         
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
     </div>
     <div class="header-article__right">
 <button onclick="toggleFullScreen()"
@@ -202,52 +121,6 @@ title="Fullscreen mode"
   </span>
 
 </button>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/intro.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.md</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
 <label for="__page-toc"
   class="headerbtn headerbtn-page-toc"
   
@@ -270,43 +143,29 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#official-course-description">
-   Official Course Description
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#motivating-questions">
-     Motivating Questions
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#course-learning-objectives">
-     Course Learning Objectives
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#course-philosophy">
-   Course Philosophy
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#stretch-zone">
-     Stretch Zone
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#syllabus">
-   Syllabus
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-logistics">
+   Course Logistics
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#course-acknowledgements">
-   Course Acknowledgements
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-assignments">
+   Course Structure
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-resources">
+   Resources Supporting SDS 293
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-honorcode">
+   Academic Integrity
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-grading">
+   Assessment
   </a>
  </li>
 </ul>
@@ -328,43 +187,29 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#official-course-description">
-   Official Course Description
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#motivating-questions">
-     Motivating Questions
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#course-learning-objectives">
-     Course Learning Objectives
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#course-philosophy">
-   Course Philosophy
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#stretch-zone">
-     Stretch Zone
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#syllabus">
-   Syllabus
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-logistics">
+   Course Logistics
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#course-acknowledgements">
-   Course Acknowledgements
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-assignments">
+   Course Structure
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-resources">
+   Resources Supporting SDS 293
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-honorcode">
+   Academic Integrity
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-grading">
+   Assessment
   </a>
  </li>
 </ul>
@@ -453,7 +298,7 @@ keeping with that belief, there are a few tasks in this document that will
 help us build our course community.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Please read the syllabus this week and complete these tasks to help shape our community. If you have questions about the syllabus, please ask them on our <span class="xref myst">class’s first week’s sli.do</span></p>
+<p>Please read the syllabus this week and complete these tasks to help shape our community. If you have questions about the syllabus, please ask them on our <a class="reference external" href="https://app.sli.do/event/vUruyYfXruFLuuv8dpyAnM">class’s first week’s sli.do</a></p>
 </div>
 <p>This web version of the syllabus has a menu and search bar on the left, but the syllabus is also available as one <span class="xref myst">pdf document</span>.</p>
 </section>
@@ -462,6 +307,386 @@ help us build our course community.</p>
 <p>Parts of this course - including slides, activities, and notes - will be from a variety of sources. Materials will be appropriately attributed and will be used in keeping with copyright and fair use laws.</p>
 </section>
 <div class="toctree-wrapper compound">
+<span id="document-logistics"></span><section class="tex2jax_ignore mathjax_ignore" id="course-logistics">
+<h2>Course Logistics<a class="headerlink" href="#course-logistics" title="Permalink to this headline">#</a></h2>
+<section id="class-meeting-times">
+<h3>Class Meeting Times<a class="headerlink" href="#class-meeting-times" title="Permalink to this headline">#</a></h3>
+<p>The course meets three times per week on Mondays, Wednesdays, and Fridays in Sabin-Reed 301 from 9:25am to 10:15am. In supporting our course community, students should make every effort to be at our course meetings on time.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For accessibility reasons, we kindly ask that you refrain from wearing any scented products in class.</p>
+</div>
+<section id="attending-lecture">
+<h4>Attending Lecture<a class="headerlink" href="#attending-lecture" title="Permalink to this headline">#</a></h4>
+<p>We are still in the midst of a global pandemic. In keeping with the
+<a class="reference external" href="https://www.smith.edu/covid-19">COVID-19 Information</a> laid out in
+Smith’s Culture of Care, if you are ill and/or have <em>any</em> COVID symptoms,
+please do <strong>not</strong> come to <em>in-person</em> class.</p>
+<p>For all SDS courses, there is no virtual attendance option. For more information, please see our <a class="reference external" href="https://www.smith.edu/academics/statistics">program’s website</a>.</p>
+<p>You do not need to email me to ask permission to miss class in person. However, if you are not able to be in-person for 2 consecutive meetings, then we need to check in.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are not able to be in class for any reason, please consider doing at least two of the following:</p>
+<ul class="simple">
+<li><p>Get notes from a fellow machine learning explorer</p></li>
+<li><p>Attempt the in-class work as soon as you feel well enough to do so. But also <em>remember:</em></p>
+<ul>
+<li><p>You do <strong>not</strong> have to do all of the GPsets to get a high score for that section of the grade</p></li>
+<li><p>You do <strong>not</strong> have to do all of the Labs to get a high score for that section of the grade</p></li>
+</ul>
+</li>
+<li><p>Post questions to slack</p></li>
+<li><p>If there is a GPset, post to slack to see if there is a group you can join and/or another person who missed class.</p></li>
+</ul>
+</div>
+<p>Similarly, do not come to student hours nor appointments if you are ill and/or have <em>any</em> COVID symptoms. Please use the virtual student hours zoom link to attend student hours virtually, and a zoom link can be provided for any in-person appointment.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do <strong>NOT</strong> come to in-person class or student hours, if you are ill and/or have any COVID symptoms.</p>
+</div>
+<p>Failure to respect this policy will result in an email to both the class dean and your advisor.</p>
+</section>
+<section id="pivoting-class-meetings">
+<h4>Pivoting Class Meetings<a class="headerlink" href="#pivoting-class-meetings" title="Permalink to this headline">#</a></h4>
+<p>If I am unwell and/or experiencing any symptoms of COVID, class will be held on zoom. If this happens, I will send a slack message on the #general channel using the &#64;everyone mention. Using &#64;everyone should send an email to your inbox.</p>
+<p>If the college pivorts to remote learning, the course should be able to remain largely remain unchanged. The structure of this course is similar to one that I used in Spring 2021 for <em>Modeling for Machine Learning.</em> That course was fully online, and students had positive comments on this format.</p>
+</section>
+</section>
+<section id="communication">
+<h3>Communication<a class="headerlink" href="#communication" title="Permalink to this headline">#</a></h3>
+<p>In addition to our synchronous meetings, our class will make of electronic communication, including our class slack, email, and Moodle messages. These methods of communication represent differing levels of formality and collaboration:</p>
+<ul class="simple">
+<li><p><strong>Slack:</strong> Our slack site is the <strong><em>primary form</em></strong> of course communication. It allows for us to share where we are stuck with a reading, idea, or assignment, and where we can add helpful hints, request study groups, or share interesting news articles. Slack is much less formal than email, and salutations and signatures are not required. If you need to ask your instructor a question, this is the best place to do it either over a public channel or through direct message. <strong>Please make a daily practice of checking slack as the <strong>primary</strong> form of communication for the course</strong></p></li>
+<li><p><strong>Email:</strong> Email communication is more formal than slack. It should be used in the cases that 1) concern something personal including <strong>accommodations forms,</strong> 2) require attachments, or 3) involve a number of people (who should be copied on the email). We also will use email to confirm individual appointments. Emails to the instructor should include a salutation (ie. “Dear…”) and a signature (ie. “Best/Cheers/Kindly…”).</p></li>
+<li><p><strong>Slack Mentions:</strong> When I need to communicate with the whole class on a time-sensitive manner, I will use the &#64;everybody or &#64;channel functionality in slack. Please check that your slack settings will notify you either via slack or email. If you are using the email notifications, please be sure that your email does not treat these messages as spam.</p></li>
+<li><p><strong>Slack Emojis:</strong> At times, I will ask you to emoji a message to show that you have read the message. This is a quick way for you to signal that you read it. If there’s something that you have a question about in a “please emoji” message, please use the threading function for that message or send me a direct message on slack.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please sign up for <a class="reference external" href="http://sds-293-01-202301.slack.com/">our slack site</a>, add a profile picture, and introduce yourself with your name and a fun-fact about yourself on the #intros channel. After signing up, please determine how and where you will get notifications from slack.</p>
+</div>
+<p>Please note that on a typical workday, I leave my office just after 5:00pm. This means that emails and slack messages sent after 5:00pm will likely be received on the next business day. Similarly e-communication sent on the weekend will likely not be received until Monday.</p>
+</section>
+<section id="course-resources">
+<h3>Course Resources<a class="headerlink" href="#course-resources" title="Permalink to this headline">#</a></h3>
+<p>Machine learning is a rapidly evolving field. So, our course will gather together a number of readings and resources from different sources. The below list of course materials are the minimum that I believe that you need to be successful in the course. If you feel that there is something critical missing from this list, please let me know.</p>
+<ul class="simple">
+<li><p>Variety of book chapters noted on the detailed course schedule and available at the library</p></li>
+<li><p>Bound notebook for notes, ideas, and scratch work</p></li>
+<li><p>Highlighters in at least 2 colors</p></li>
+<li><p>Pens or pencils in at least 3 colors</p></li>
+<li><p>Course Texts:</p>
+<ul>
+<li><p><a class="reference external" href="https://mml-book.github.io/">Mathematics for Machine Learning</a> by Deisenroth, Faisal, and Ong. Note that we are using the <a class="reference external" href="https://mml-book.github.io/book/mml-book.pdf">PDF of the printed book</a></p></li>
+<li><p><a class="reference external" href="https://www.microsoft.com/en-us/research/people/cmbishop/downloads/">Pattern Recognition and Machine Learning</a> by Bishop</p></li>
+<li><p><a class="reference external" href="https://mbmlbook.com/index.html">Model-Based Machine Learning (Early Access)</a> by Winn with Bishop, Diethe, Guiver and Zaykov</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All of our books are freely available on the web (due to arrangements that the authors have made with their publishers), and thus cost $0 for students to read them. If you are having issues accessing the books, please let me know.</p>
+</div>
+<p>There are also a wealth of machine learning resources online and at the Library. Please note that for anything denoted as an E-Book at the library, there are limits placed on how many people can view the source. Instead, you can download sections (or whole books) for a period of time directly from the library.</p>
+</section>
+<section id="instructor-information">
+<h3>Instructor Information<a class="headerlink" href="#instructor-information" title="Permalink to this headline">#</a></h3>
+<p>The instructor for this course is Katherine Kinnaird and I use she/her pronouns. My office is room 218 Bass Hall. The <strong>best way</strong> to reach me is on <strong>slack.</strong> If you need to email me, my email is <a class="reference external" href="mailto:kkinnaird&#37;&#52;&#48;smith&#46;edu">kkinnaird<span>&#64;</span>smith<span>&#46;</span>edu</a>.</p>
+<section id="student-hours">
+<h4>Student hours<a class="headerlink" href="#student-hours" title="Permalink to this headline">#</a></h4>
+<p>My student hours are time blocked in my calendar for you! Please drop by either in person or virtually. During the first class, we will vote when my two scheduled office hours will be.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Office hour timing to be voted on during the first week of classes</p>
+</div>
+<p>Below is an incomplete list of great reasons to hangout in gather before or after class or to make an appointment:</p>
+<ul class="simple">
+<li><p>You haven’t had the chance to chat with me yet</p></li>
+<li><p>You want to see what my office looks like</p></li>
+<li><p>You have a question on a reading, assignment, or activity</p></li>
+<li><p>You heard that that my office mascot is a sheep</p></li>
+<li><p>You want to share about the course, your time at Smith, or about yourself</p></li>
+<li><p>You read something about machine learning, computer science, statistics, or math that you have questions about</p></li>
+<li><p>You are thinking about what you want to do after Smith</p></li>
+</ul>
+</section>
+<section id="appointments">
+<h4>Appointments<a class="headerlink" href="#appointments" title="Permalink to this headline">#</a></h4>
+<p>You are welcome and encouraged to make individual appointments with me. To make an appointment, please check my <a class="reference external" href="https://bit.ly/Kinnaird-Appts">appointment calendar</a> for appointment slots that are set aside each week.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To book an appointment with me, go to my <a class="reference external" href="https://bit.ly/Kinnaird-Appts">appointment calendar</a></p>
+</div>
+</section>
+</section>
+</section>
+<span id="document-assignments"></span><section class="tex2jax_ignore mathjax_ignore" id="course-structure">
+<h2>Course Structure<a class="headerlink" href="#course-structure" title="Permalink to this headline">#</a></h2>
+<p>To prepare students to tackle the course’s motivating questions - especially What habits of mind do we need to develop to become machine learning practitioners? -  there are a variety of assignments in this course. Each week will be a mix of reading about machine learning topics, discussing and debating concepts, deriving machine learning theory from existing knowledge, and constant reflection about our learning and professional development. All due dates are posted on the Detailed Course Schedule and are due on the stated dates AOE (anywhere on earth).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <a class="reference external" href="https://docs.google.com/document/d/10jiN2kkTw2rwmtb39V07HUacI77nprd44uLDCwR2yeM/edit">Detailed Course Schedule</a> lists the best by dates for the course. To view it, please log into your <strong>Smith</strong> account.</p>
+</div>
+<section id="assignments">
+<h3>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">#</a></h3>
+<p>The work in this course can be broadly broken down into four types:</p>
+<ul class="simple">
+<li><p><strong>Routine Course Work,</strong> including 12 labs, daily readings, and daily engagement journal</p></li>
+<li><p><strong>Problem Sets,</strong> including 24 group problem sets and 11 individual starred problems</p></li>
+<li><p><strong>Professional development,</strong> including two reflective writing assignments and persistent engagement with the course</p></li>
+<li><p><strong>Final Project</strong> that teaches a recent machine learning paper to fellow Smithies (who are not in the course)</p></li>
+</ul>
+<section id="starred-problems">
+<h4>Starred Problems<a class="headerlink" href="#starred-problems" title="Permalink to this headline">#</a></h4>
+<p>Each week, you will complete a starred problem. The goals of these problems are to 1) apply what we’ve discussed in class on your own and 2) reflect on your learning so far. To accomplish these goals, starred problems will all follow the same procedure:</p>
+<ol class="simple">
+<li><p>Put away all course resources</p></li>
+<li><p>Download that week’s starred problem off moodle</p></li>
+<li><p>Write your solution to the problem and upload it into moodle</p></li>
+<li><p>Once properly uploaded, the instructor solution will appear</p></li>
+<li><p>Compare your solution to the instructor solution</p></li>
+<li><p>Complete a reflection worksheet about this problem and what you would like to review as a result of doing this problem</p></li>
+</ol>
+<p>These problems are based on completion (ie. you get the credit or not) based on both your solution and the content of your reflection. This means that you can get the problem totally wrong and still get full credit if you take the time to honestly reflect on your progress. This assignment structure is based on an assignment structure from Smith’s Engineering Program.</p>
+</section>
+</section>
+<section id="weekly-flow-for-the-course">
+<h3>Weekly flow for the course<a class="headerlink" href="#weekly-flow-for-the-course" title="Permalink to this headline">#</a></h3>
+<p>Each week, you will have 2 group problem sets, a lab and an individual problem set due each week. Due to the calendar, we will have a change up to the weekly schedule following the thanksgiving break</p>
+<section id="weekly-schedule-before-thanksgiving">
+<h4>Weekly Schedule - Before Thanksgiving<a class="headerlink" href="#weekly-schedule-before-thanksgiving" title="Permalink to this headline">#</a></h4>
+<p>Before the Thanksgiving break, the weekly flow will operate as follows:</p>
+<table class="colwidths-auto docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Day</p></th>
+<th class="head"><p>Course Preparation and/or Activity</p></th>
+<th class="head"><p>Due Date</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Monday</p></td>
+<td><p>Lab in class</p></td>
+<td><p>GPsets from the previous week</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wednesday</p></td>
+<td><p>GPset in class</p></td>
+<td><p>Lab from Monday &amp; Starred Problem</p></td>
+</tr>
+<tr class="row-even"><td><p>Friday</p></td>
+<td><p>GPset in class</p></td>
+<td><p>Recommended: reflect in your engagement journal</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="weekly-schedule-after-thanksgiving">
+<h4>Weekly Schedule - After Thanksgiving<a class="headerlink" href="#weekly-schedule-after-thanksgiving" title="Permalink to this headline">#</a></h4>
+<p>Before the Thanksgiving break, the weekly flow will operate as follows:</p>
+<table class="colwidths-auto docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Day</p></th>
+<th class="head"><p>Course Preparation and/or Activity</p></th>
+<th class="head"><p>Due Date</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Monday</p></td>
+<td><p>GPset in class</p></td>
+<td><p>Lab from the previous week &amp; Starred Problem</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wednesday</p></td>
+<td><p>GPset in class</p></td>
+<td><p>Recommended: reflect in your engagement journal</p></td>
+</tr>
+<tr class="row-even"><td><p>Friday</p></td>
+<td><p>Lab in Class</p></td>
+<td><p>GPsets from this week</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <a class="reference external" href="https://docs.google.com/document/d/10jiN2kkTw2rwmtb39V07HUacI77nprd44uLDCwR2yeM/edit?usp=sharing">Detailed Course Schedule</a> lists the best by dates for the course. To view it, please log into your <strong>Smith</strong> account.</p>
+</div>
+</section>
+<section id="workload">
+<h4>Workload<a class="headerlink" href="#workload" title="Permalink to this headline">#</a></h4>
+<p>According to federal standards, each four-credit course should equate to at least 180 hours of work over the semester. If you are taking 16 credits, that equates to 720 hours of work over the 15 weeks of the semester, from the first day of classes until the end of the final exam period. In the case of this course, you will spend nearly 12 hours each week on my class alone (including our three hours of class meetings per week).<a class="footnote-reference brackets" href="#id2" id="id1">1</a></p>
+<p>In considering the work for this course, I believe that the approximate 9 hours per week <em>outside</em> of class will breakdown something along these lines:</p>
+<ul class="simple">
+<li><p>4 hours of class prep (working on the readings, posting questions, etc)</p></li>
+<li><p>1 hour per week of lab wrap up</p></li>
+<li><p>1 hour per week of GPset wrap up</p></li>
+<li><p>2 hours per week on preparing and completing the starred problem</p></li>
+<li><p>1 hour of “flex time” used to supplement any of the above areas and/or go to student hours</p></li>
+</ul>
+<p>Notice that there is an hour of flex time. This is to accommodate weeks were you might want to spend more time on an assignment or a reading. For example, you might spend extra time working on a group pset or coming to student hours to discuss a reading.</p>
+<p>If you find that the time you are spending on this class is a lot more than 9 hours per week <em>outside</em> of class or a lot less, let’s check in.</p>
+<hr class="footnotes docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="id2"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Each of our 50 minute meetings is “counted” as 60 minutes. Since we meet 3 times per week, our “in-class contact time” is counted as 3 hours.</p>
+</dd>
+</dl>
+</section>
+</section>
+</section>
+<span id="document-resources"></span><section class="tex2jax_ignore mathjax_ignore" id="resources-supporting-sds-293">
+<h2>Resources Supporting SDS 293<a class="headerlink" href="#resources-supporting-sds-293" title="Permalink to this headline">#</a></h2>
+<p>Here is a list of additional resources supporting our class. Information about your instructor can be found on the <span class="xref myst">logistics page</span>.</p>
+<section id="inclusivity-for-all-students">
+<h3>Inclusivity for all students<a class="headerlink" href="#inclusivity-for-all-students" title="Permalink to this headline">#</a></h3>
+<p>Smith is committed to providing support services and reasonable accommodations to all students with disabilities. Please inform me early in the term if there are aspects of the course that need to be modified to serve your learning, health, or person. You may speak with me after class, during student hours, or during an appointment. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To begin the process, either call 413-585-2071 or email <a class="reference external" href="mailto:ods&#37;&#52;&#48;smith&#46;edu">ods<span>&#64;</span>smith<span>&#46;</span>edu</a>.</p>
+<p>Students in need of short-term academic advice or support can contact your class dean in the Dean of the College office. If you require some accommodation for religious or cultural purposes, please do not hesitate to let me know.</p>
+</section>
+<section id="spinelli-center">
+<h3>Spinelli Center<a class="headerlink" href="#spinelli-center" title="Permalink to this headline">#</a></h3>
+<p>The Spinelli Center for Quantitative Learning is a resource to support students as they take STEM courses and as they engage in other quantitative work. To see the list of available peer tutors and other resources available at the Spinelli Center, please consult their <a class="reference external" href="https://www.smith.edu/qlc/tutoring.html">website</a>.</p>
+</section>
+<section id="jacobson-center">
+<h3>Jacobson Center<a class="headerlink" href="#jacobson-center" title="Permalink to this headline">#</a></h3>
+<p>Smith has an additional resource for writing support: the Jacobson Center for Writing, Teaching &amp; Learning make an appointment to take your work to the Jacobson Center on <a class="reference external" href="https://www.smith.edu/academics/jacobson-center">their website</a>. In particular, you may choose to bring your work to Peer Writing Tutors Elisabeth Nesmith or Elina Gordon-Halpern, both SDS majors who tutor for the Jacobson Center. Contact Sara Eddy (<a class="reference external" href="mailto:seddy&#37;&#52;&#48;smith&#46;edu">seddy<span>&#64;</span>smith<span>&#46;</span>edu</a>) for more information about their schedules or how to make an appointment.</p>
+<p><font size="2">The above language about the Jacobson Center was adapted from language from Sara Eddy. Used with permission</font></p>
+</section>
+<section id="library">
+<h3>Library<a class="headerlink" href="#library" title="Permalink to this headline">#</a></h3>
+<p>The library has a wealth of resources on Machine Learning. I invite you to check them out!</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please note that for anything denoted as an E-Book at the library, there are limits placed on how many people can view the source. Instead, you can download sections (or whole books) for a period of time directly from the library.</p>
+</div>
+</section>
+</section>
+<span id="document-honorcode"></span><section class="tex2jax_ignore mathjax_ignore" id="academic-integrity">
+<h2>Academic Integrity<a class="headerlink" href="#academic-integrity" title="Permalink to this headline">#</a></h2>
+<p>Nothing is held more dear to a researcher than their integrity. To researchers, the most precious commodity is our ideas. While some researchers build tangible items that can be protected by patents, many researchers’ products are ideas and theories, which are less likely to be protected under things like patents. Instead, it is academic integrity that governs our research communities, protecting our ideas from being stolen. The system of academic integrity relies on researchers trusting each other to be honest and to act with integrity.</p>
+<section id="honor-code">
+<h3>Honor Code<a class="headerlink" href="#honor-code" title="Permalink to this headline">#</a></h3>
+<p>Being at a school with an Honor Code, like Smith, is a special privilege. The Honor Code goes beyond inviting students to act with integrity, instead it welcomes students as equal participants of the learning community, imbuing students with the same level of trust that we extend to our collaborators and colleagues. The Smith College Honor Code, established in 1944, and as stated in the Student Handbook, says:</p>
+<blockquote>
+<div><p>Smith College expects all students to be honest and committed to the principles of academic and intellectual integrity in their preparation and submission of course work and examinations. Students and faculty at Smith are part of an academic community defined by its commitment to scholarship, which depends on scrupulous and attentive acknowledgement of all sources of information, and honest and respectful use of college resources.</p>
+</div></blockquote>
+<p>This trust bestowed to students in the Honor Code is the same trust that exists in and among researchers within a research community, the same trust that exists between me and my collaborators. Simply put, at Smith, under the Honor Code, I trust that you will each act with integrity, citing sources when you celebrate others’ ideas and noting who you work with when collaborating.</p>
+<p>This trust manifests in how assignments are created, in how work is completed, and in how we resolve instances where the trust has been broken. At an Honor Code school, assignments are created knowing that while there are resources online that can offer complete solutions, you are trusted to not seek out such complete resources and that if you do stumble on a solution guide, you will not use it. Under an Honor Code, students are expected to keep careful notes about the resources that they consult and the people that they collaborate with. We get to assume that the work handed in by a student is the creation of that student. Lastly, when there are violations of the Honor Code, the resolution is determined by a committee established by the community and trusted to seek restoration of the whole community’s trust through education and action.</p>
+<p>I regard the Honor Code with deep and profound respect. Being an educator at an Honor Code school means we begin from a place of trust without any underlying suspicion of our students. Simply put, we - instructors and students - work from the assumption that all are acting in good faith and with the utmost integrity. This is an assumption that cannot be made at a school without an Honor code, and it is why it is a privilege to be both an instructor and a student at Smith under the Honor Code.</p>
+</section>
+<section id="honor-code-practicalities">
+<h3>Honor Code Practicalities<a class="headerlink" href="#honor-code-practicalities" title="Permalink to this headline">#</a></h3>
+<p>The work you submit should be your own and created by you, unless explicitly listed as a group assignment. With the exception of the starred problems, I do encourage you to ask for help from your peers or myself when you have questions; however, copying is never allowed. The line between copying and helping is subtle. Below are a few guidelines:</p>
+<ul class="simple">
+<li><p>Do not share nor give your work with other students; instead, offer to discuss the big ideas of the task at hand.</p></li>
+<li><p>Do not look at someone else’s work (including online solutions); instead, ask if you could talk with them about your ideas and share where you are getting stuck.</p></li>
+<li><p>Acknowledge those you talk or work with at the top of <strong>every</strong> assignment. I will not dock points for getting acknowledged help from others. If you generate a solution or an argument with someone, in addition to acknowledging that person, recreate the solution or argument on your own in your own words.</p></li>
+</ul>
+<p>If you think you may have crossed the line between helping and copying, please talk to me. Do not let me discover that the line was crossed. If a violation of the Honor Code is suspected, the student will be informed and will be given the opportunity to meet with the instructor. As recommended by the Academic Honor Board and in keeping with Smith tradition, the student will be given time to self-report, and after such time, the suspected violation will be reported to the Academic Honor Board by the instructor.</p>
+<p>If you are unsure about how Smith’s Honor Code applies to our course, please consult with me or a class dean. We are happy to discuss the Honor Code with you.</p>
+<section id="creation-vs-curation">
+<h4>Creation vs. Curation<a class="headerlink" href="#creation-vs-curation" title="Permalink to this headline">#</a></h4>
+<p>In my role as your instructor, I am <strong>curating</strong> resources for you that I feel are best for the teaching and learning of machine learning. In this process of curation, I will give credit to those whose materials I have used and I will only use materials as allowable by copyright and fair use.</p>
+<p>In this course, you will be asked to <strong>create</strong> solutions for group problem sets and for the final project. In these acts of creation, you are demonstrating you most current understanding of the concepts in our course. This course will give you lots of chances to demonstrate what you know and lots of flexibility.</p>
+<p>I am aware that there is a tension between the curation that I am modeling and the creation that is being asked of you. My goal is to provide the best resources to you, which requires reading and sorting through many sources (curation). Your goal is to learn as much machine learning as deeply as possible, which requires a lot of practice, trying out machine learning ideas, reflecting on your attempts, and trying again (creation).</p>
+</section>
+</section>
+</section>
+<span id="document-grading"></span><section class="tex2jax_ignore mathjax_ignore" id="assessment">
+<h2>Assessment<a class="headerlink" href="#assessment" title="Permalink to this headline">#</a></h2>
+<p>Just like beginning a project, we begin this course with nothing completed yet; similarly, we begin the semester with no points, just yet. As assignments are assigned and returned we will slowly build points towards the 1000 possible points. In keeping with this philosophy, each assignment adds to your total score. In more traditional courses, one might begin with 100% and have their grade slowly chipped down to a final score. Instead in this course, we are building our grades up in concert with our knowledge about machine learning. View each assignment as a reflection of the depth of your machine learning knowledge base.</p>
+<section id="grading-practicalities">
+<h3>Grading Practicalities<a class="headerlink" href="#grading-practicalities" title="Permalink to this headline">#</a></h3>
+<p>The 1000 possible points for the course are distributed as follows:</p>
+<ol class="simple">
+<li><p><strong>Group Problem Sets:</strong> 522 total points -</p>
+<ul class="simple">
+<li><p>24 group problem sets, each with 18 possible points, for a max total of 342</p></li>
+<li><p>12 individual starred problems, each with 18 possible points,for a max total of 180</p></li>
+</ul>
+</li>
+<li><p><strong>Routine Course Work:</strong> 306 total points -</p>
+<ul class="simple">
+<li><p>12 Lab assignments, each with 9 possible points, for a max total of 90</p></li>
+<li><p>Daily engagement journal for a total of 216 points</p></li>
+</ul>
+</li>
+<li><p><strong>Final Project:</strong> 100 total points with an optional checkpoint</p></li>
+<li><p><strong>Professional development:</strong> 72 total points -</p>
+<ul class="simple">
+<li><p>Two Reflective Writing assignments, each with 12 possible points</p></li>
+<li><p>Class engagement in person and on slack, for a total of 48 possible points</p></li>
+</ul>
+</li>
+</ol>
+<section id="types-of-grading">
+<h4>Types of grading<a class="headerlink" href="#types-of-grading" title="Permalink to this headline">#</a></h4>
+<p>There will be three kinds of grading for this course: 1) rubrics, 2) on completion, and 3) with student input.</p>
+<ol class="simple">
+<li><p>The following assignments will fall under typical rubric grading: group problem sets, your engagement journal, and the final project. Depending on the assignment, detailed rubrics may be issued before the assignment is submitted, while in other cases only general outlines will be given in advance of the assignment.</p></li>
+<li><p>The following assignments will be graded on completion: the labs, the individual starred problems, and reflective writing assignments. Note that completion here means that the work was completed in good faith. The act of turning in something does not guarantee a score of completion. But any work that is clearly done in good faith will be marked as complete and will earn full marks.</p></li>
+<li><p>The class engagement part of the course will be graded with student input. In the sixth week of the course and during the last week of classes, you will be asked to complete a self-evaluation of your class engagement in context of the class engagement list. Your self-evaluations will be a critical part of determining this section of your grade, but not the only determining factor.</p></li>
+</ol>
+<section id="translating-to-the-real-world">
+<h5>Translating to the “real world”<a class="headerlink" href="#translating-to-the-real-world" title="Permalink to this headline">#</a></h5>
+<p>This course iterates on each concept, pushing your knowledge to grow with each activity. This kind of iterative work is critical for learning new things and developing facility with them. The assignments scaffold as follows:</p>
+<ul class="simple">
+<li><p><strong>Reading and Prep work for class</strong> - This is your first contact with the material. Just like meeting a person for the first time, you should pay attention to the big picture pieces, but not fuss over learning each detail perfectly. Instead, note questions in your engagement journal that you want to ask the next time you come into contact with the material.</p></li>
+<li><p><strong>In class meetings and Labs</strong> - The course is designed to be largely hands on. Each class meeting will be mostly working on something: problem sets and/or labs. Problem sets are largely “pen and paper” while labs are in Rmarkdown. Both are intended to be playgrounds for learning the material; so take tons of notes, make mistakes, and try again! This is our second contact with the material, and just like meeting a person for the second time, you should have follow-up questions about the material</p></li>
+<li><p><strong>Individual Work</strong> - Once we’ve read about the material and worked on highly structured activities, it is time to practice deploying concepts on your own from end to end. Our course has a weekly starred problem that is one step beyond the class activities in difficulty, and has a reflective learning component built in.</p></li>
+<li><p><strong>Final Projects</strong> - After three different interactions with each concept, it is time to see where these concepts occur in the wild. The ultimate goal of the course is that you can read, situate, and discuss current papers in machine learning. In your final projects, you will create a small lesson to teach a recent paper to your fellow machine learning explorers. The primary goal of this project is to take the concepts from class and do something that stretches your knowledge.</p></li>
+</ul>
+<p>Similarly, I have built the grading structure for this course to be more similar to how I experience the “real world” that is with systems built in to allow for life to happen. These systems come in a few forms:</p>
+<ul class="simple">
+<li><p>For the labs, group problem sets, and individual starred problems, the number of possible points is more than the maximum that I will use in my final computation. For example, there are 414 possible points for group problem sets, but yet, I will do my computation out of 342 points. This means that you can decide to not hand in 4 group problem sets for any reason. It could be because you are ill, you forgot about it, or you had too much work for your other courses. Note that pre-planned “dropping” of assignments should be used sparingly because we can not predict when life will happen (ie. illness, etc).</p></li>
+<li><p>For the final project, there is a checkpoint assignment that is completely optional, but if you complete it, you will be guaranteed at least 80 (of 100 possible) points. Missing the checkpoint is not a big deal, but can offer security to those with challenging finals periods. Additionally, the engagement journal will have prompts to help you brainstorm towards your final project.</p></li>
+</ul>
+<p>These systems attempt to match my experience of being in the “real world.” Assignments under the first system (ie. labs, group problem sets, and individual starred problems), you need to do about 80% of them well to get full credit for 100% in that portion of the grade. This matches my daily life where I can physically get to about 80% of my to-do list. Under the second system, it is often easier to edit a draft than to start from a blank page, and having small deadlines (where the reward is quick feedback) gives structure to larger projects.</p>
+<p>While I do believe that each assignment for this course is important, I also believe that the college structure does not always allow you to practice “real world” decisions such as balancing your health with your work. So while I will not tell you to hand in an assignment or to not hand one in, I would love to listen to you practicing making these decisions.</p>
+</section>
+</section>
+<section id="due-dates">
+<h4>Due Dates<a class="headerlink" href="#due-dates" title="Permalink to this headline">#</a></h4>
+<p>Each week, there are three deadlines:</p>
+<ol class="simple">
+<li><p>Labs</p></li>
+<li><p>Starred Problems</p></li>
+<li><p>Group Psets</p></li>
+</ol>
+<p>All work is <strong>due at 9am</strong> on the date listed on the <a class="reference external" href="https://docs.google.com/document/d/10jiN2kkTw2rwmtb39V07HUacI77nprd44uLDCwR2yeM/edit">Detailed Course Schedule</a>. This is a great moment to note these dates your system for keeping track of your work (ie. planner, calendar, etc). (If you want to really stretch here, do this for all assignments in all your courses.)</p>
+<section id="flexibility">
+<h5>Flexibility<a class="headerlink" href="#flexibility" title="Permalink to this headline">#</a></h5>
+<p>In general, work should not be late. Later course content builds on previous content, and if one is spending time on an assignment that is passed due, then there is less time for the next assignment. Additionally the grading for this course has a number of flexibility systems in place, and I encourage that you take advantage of them as needed.</p>
+<p>This all being said, there’s a pandemic, and life is not normal. If you find yourself in need of a bit more time, send me a brief slack message at least a day before the work is due. In your message include 1) what flexibility systems you’ve already used, 2) why it is important to your learning that you get an extension, 3) propose a new due date for yourself, and 4) why the proposed extension will not hinder your ability to get the next assignment done on time. Your message should be no more than seven sentences long.</p>
+</section>
+</section>
+</section>
+<section id="letter-grades">
+<h3>Letter grades:<a class="headerlink" href="#letter-grades" title="Permalink to this headline">#</a></h3>
+<p>Traditional letter grades will be assigned using the below listed minimum points:</p>
+<table class="colwidths-auto docutils align-default">
+<thead>
+<tr class="row-odd"><th class="text-align:center head"><p>Letter Grade</p></th>
+<th class="text-align:center head"><p>Number of points</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:center"><p>A</p></td>
+<td class="text-align:center"><p>950 - 1000 pts</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>A-</p></td>
+<td class="text-align:center"><p>900 - 949 pts</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>B</p></td>
+<td class="text-align:center"><p>800 - 899 pts</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>C</p></td>
+<td class="text-align:center"><p>700 - 799 pts</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>D</p></td>
+<td class="text-align:center"><p>600 - 699 pts</p></td>
+</tr>
+</tbody>
+</table>
+<p>At the instructor’s discretion, these grade cutoffs may be lowered at the end of the semester, but they will never be raised. Cut-offs not stated here for the pluses and minuses will be determined at the end of the semester.</p>
+</section>
+</section>
 </div>
 </section>
 
@@ -492,13 +717,6 @@ help us build our course community.</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="logistics.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Course Logistics</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
             </footer>
         </div>

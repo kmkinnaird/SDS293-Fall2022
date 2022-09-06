@@ -56,7 +56,7 @@ Each week, there are three deadlines:
 2. Starred Problems 
 3. Group Psets
 
-All work is **due at 9am** on the date listed on the [Detailed Course Schedule](). This is a great moment to note these dates your system for keeping track of your work (ie. planner, calendar, etc). (If you want to really stretch here, do this for all assignments in all your courses.) 
+All work is **due at 9am** on the date listed on the [Detailed Course Schedule](https://docs.google.com/document/d/10jiN2kkTw2rwmtb39V07HUacI77nprd44uLDCwR2yeM/edit). This is a great moment to note these dates your system for keeping track of your work (ie. planner, calendar, etc). (If you want to really stretch here, do this for all assignments in all your courses.) 
 
 
 #### Flexibility

@@ -3,7 +3,7 @@
 To prepare students to tackle the course’s motivating questions - especially What habits of mind do we need to develop to become machine learning practitioners? -  there are a variety of assignments in this course. Each week will be a mix of reading about machine learning topics, discussing and debating concepts, deriving machine learning theory from existing knowledge, and constant reflection about our learning and professional development. All due dates are posted on the Detailed Course Schedule and are due on the stated dates AOE (anywhere on earth). 
 
 :::{note}
-The [Detailed Course Schedule]() lists the best by dates for the course. To view it, please log into your **Smith** account. 
+The [Detailed Course Schedule](https://docs.google.com/document/d/10jiN2kkTw2rwmtb39V07HUacI77nprd44uLDCwR2yeM/edit) lists the best by dates for the course. To view it, please log into your **Smith** account. 
 :::
 
 ## Assignments
@@ -40,10 +40,10 @@ Each week, you will have 2 group problem sets, a lab and an individual problem s
 Before the Thanksgiving break, the weekly flow will operate as follows: 
 
 | Day    | Course Preparation and/or Activity | Due Date |
-| ----------- | ----------- | ----------- |
+| ---------- | ----------- | ----------- |
 | Monday     | Lab in class | GPsets from the previous week |
-| Wednesday     | GPset in class | Lab from Monday|
-| Friday     | GPset in class | Starred Problem |
+| Wednesday  | GPset in class | Lab from Monday & Starred Problem|
+| Friday     | GPset in class |  Recommended: reflect in your engagement journal|
 
 
 #### Weekly Schedule - After Thanksgiving
@@ -52,9 +52,9 @@ Before the Thanksgiving break, the weekly flow will operate as follows:
 
 | Day    | Course Preparation and/or Activity | Due Date |
 | ----------- | ----------- | ----------- |
-| Monday     | GPset in class | Lab from the previous week |
-| Wednesday     | GPset in class | Starred Problem |
-| Friday     | GPset in class | GPsets from this week |
+| Monday     | GPset in class | Lab from the previous week & Starred Problem |
+| Wednesday     | GPset in class | Recommended: reflect in your engagement journal |
+| Friday     | Lab in Class | GPsets from this week |
 
 :::{note}
 The [Detailed Course Schedule](https://docs.google.com/document/d/10jiN2kkTw2rwmtb39V07HUacI77nprd44uLDCwR2yeM/edit?usp=sharing) lists the best by dates for the course. To view it, please log into your **Smith** account. 
