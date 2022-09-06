@@ -78,7 +78,7 @@ keeping with that belief, there are a few tasks in this document that will
 help us build our course community. 
 
 :::{note}
-Please read the syllabus this week and complete these tasks to help shape our community. If you have questions about the syllabus, please ask them on our [class's first week's sli.do]()
+Please read the syllabus this week and complete these tasks to help shape our community. If you have questions about the syllabus, please ask them on our [class's first week's sli.do](https://app.sli.do/event/vUruyYfXruFLuuv8dpyAnM)
 :::
 
 This web version of the syllabus has a menu and search bar on the left, but the syllabus is also available as one [pdf document]().

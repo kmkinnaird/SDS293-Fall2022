@@ -14,12 +14,25 @@ For accessibility reasons, we kindly ask that you refrain from wearing any scent
 We are still in the midst of a global pandemic. In keeping with the 
 [COVID-19 Information](https://www.smith.edu/covid-19) laid out in 
 Smith's Culture of Care, if you are ill and/or have _any_ COVID symptoms, 
-please do **not** come to _in-person_ class. Instead, please log in onto our zoom back-up. 
-The link can be found on our Moodle site and our slack space. 
+please do **not** come to _in-person_ class. 
 
-You do not need to email me to ask permission to come to class on zoom or in person. However, if you are not able to be in-person for 2 consecutive meetings, then we need to check in. 
+For all SDS courses, there is no virtual attendance option. For more information, please see our [program's website](https://www.smith.edu/academics/statistics). 
 
-Similarly, do not come to student hours nor appointments if you are ill and/or have _any_ COVID symptoms. Please use the gather to attend student hours virtually, and a zoom link can be provided for any in-person appointment. 
+You do not need to email me to ask permission to miss class in person. However, if you are not able to be in-person for 2 consecutive meetings, then we need to check in. 
+
+:::{note}
+If you are not able to be in class for any reason, please consider doing at least two of the following: 
+
+ - Get notes from a fellow machine learning explorer
+ - Attempt the in-class work as soon as you feel well enough to do so. But also _remember:_ 
+   - You do **not** have to do all of the GPsets to get a high score for that section of the grade 
+   - You do **not** have to do all of the Labs to get a high score for that section of the grade 
+ - Post questions to slack
+ - If there is a GPset, post to slack to see if there is a group you can join and/or another person who missed class. 
+
+:::
+
+Similarly, do not come to student hours nor appointments if you are ill and/or have _any_ COVID symptoms. Please use the virtual student hours zoom link to attend student hours virtually, and a zoom link can be provided for any in-person appointment. 
 
 :::{warning}
 Do **NOT** come to in-person class or student hours, if you are ill and/or have any COVID symptoms. 
@@ -43,7 +56,7 @@ In addition to our synchronous meetings, our class will make of electronic commu
 - **Slack Emojis:** At times, I will ask you to emoji a message to show that you have read the message. This is a quick way for you to signal that you read it. If there's something that you have a question about in a "please emoji" message, please use the threading function for that message or send me a direct message on slack. 
 
 :::{note}
-Please sign up for [our slack site](), add a profile picture, and introduce yourself with your name and a fun-fact about yourself on the #intros channel. After signing up, please determine how and where you will get notifications from slack. 
+Please sign up for [our slack site](http://sds-293-01-202301.slack.com/), add a profile picture, and introduce yourself with your name and a fun-fact about yourself on the #intros channel. After signing up, please determine how and where you will get notifications from slack. 
 :::
 
 Please note that on a typical workday, I leave my office just after 5:00pm. This means that emails and slack messages sent after 5:00pm will likely be received on the next business day. Similarly e-communication sent on the weekend will likely not be received until Monday. 
