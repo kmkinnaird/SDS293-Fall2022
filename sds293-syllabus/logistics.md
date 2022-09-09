@@ -92,7 +92,11 @@ The instructor for this course is Katherine Kinnaird and I use she/her pronouns.
 My student hours are time blocked in my calendar for you! Please drop by either in person or virtually. During the first class, we will vote when my two scheduled office hours will be. 
 
 :::{note}
-Office hour timing to be voted on during the first week of classes
+Student hours will be: 
+
+ - Thursdays from 8:45am to 10:15am 
+ - Fridays from 1:30pm to 3:00pm
+ - By [appointment](https://bit.ly/Kinnaird-Appts)
 :::
 
 Below is an incomplete list of great reasons to hangout in gather before or after class or to make an appointment:    
